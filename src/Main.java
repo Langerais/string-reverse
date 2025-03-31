@@ -22,6 +22,6 @@ public class Main {
             out[i] = temp[temp.length - i - 1];
         }
 
-        return Arrays.toString(out);
+        return String.join(" ", out);
     }
 }
